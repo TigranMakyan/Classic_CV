@@ -1,0 +1,98 @@
+1. Image processing
+  - filtering
+    - Gaussian filter
+    - Median filter
+    - Bilateral filter
+    - Gabor kernel
+    - Box filter
+    - Erode filter
+  - edge detection
+    - Sobel operator
+    - Canny edge detector
+    - Laplacian edge detector
+  - Morphological operations
+    - Erosion
+    - Dilation
+    - Opening
+    - Closing
+  - image enhancement
+    - histogram equalization
+    - adaptiv histogram equalization
+    - gamma correction
+  - image segmentation (see below)
+  - image transformation
+    - rotation
+    - scaling
+    - translation
+    - affine transformaion
+  - Image registration
+    - Intencity based registration: Sum of squared differences, Normalized cross-correlation
+    - Feature based registration: Point correspondence, RANSAC
+    - OPtical Flow
+    - Fourier transform
+  - Image compression
+    - lossless compression
+    - lossy compression
+
+2. Feature extraction
+  - corner detection
+    - Harris corner detection
+    - Shi-Tomasi corner detection
+  - blob detection
+    - Laplacian of Gaussian (LoG)
+    - Difference of Gaussian (DoG)
+  - Scale-Invariant-Feature-Tranform == SIFT
+  - SuperPoint
+  - Feature descriptors:
+    - Histogram of Oriented Gradients == HOG
+    - Speeded-upRobust Features  == SURF
+  - Pretrained CNN:
+    - VGG
+    - ResNet
+    - MobileNet
+    - Inception
+
+3. Neural Network types:
+  - CNN: DepthWise CNN, UpConv, TransposedConv
+  - RNN
+  - GAN, VAE - DFDNet, GFPGAN, ESRGAN
+  - Transformer
+  - Attention based Convolutional Networks lke CBAM
+
+4. Object Detection and Recognition
+  - R-CNN
+  - Fast R-CNN
+  - Faster R-CNN
+  - SSD
+  - YOLO
+  
+5. Trackers
+  - Stark
+  - RTS
+  
+6. Image Segmentation
+  - thresholding
+  - region based segmentation
+  - Graph-based segmentation
+  - contour detection
+  - GrabCUT
+  - Watershed segmentation
+  - Semantic segmentation using U-net
+  - Mask R-CNN
+  - Instance segmentation
+   
+7. Optimization tools
+  - quantization
+  - distillation
+  - prooning 
+  - stochastic weight averaging
+  - Matrix factorization
+  - Convert to Onnx, TRT or Triton
+
+8. Evaluation metrics
+  - IoU
+  - MaP
+  - Mean precision and recall
+  
+  
+  
